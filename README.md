@@ -11,7 +11,7 @@
 	</body>
 </html>
 ```
->**html**: Este elemento envuelve todo el contenido de la página.
+    	>**html**: Este elemento envuelve todo el contenido de la página.
 
 >**head**: Este elemento designa la parte de encabezado del documento. Puede incluir información opcional sobre la página Web, como puede ser el título (el navegador lo muestra en la barra de título), palabras clave de búsqueda opcionales...
 
