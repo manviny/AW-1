@@ -19,7 +19,20 @@
 
 #### 2. Explica las 3 formas de usar CSS en HTML.
 
->**CSS externo**: En la cabecera de HTML, el bloque <head></head>.
+>**CSS externo**: En la cabecera de HTML, el bloque head.
 ```html
 <link rel="stylesheet" type="text/css" href="index.css" />
+```
+>**CSS interno**: Es la de añadirlos directamente en la cabecera HTML del documento. Este sistema puede servir en algunos casos, pero hay que tener en cuenta que utilizándolo, arruinamos la ventaja de tener los estilos en un documento independiente, por lo que siempre es preferible guardarlo en un archivo externo CSS.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Título de la página</title>
+    <style type="text/css">
+        div {
+            background:#FFFFFF;
+        }
+    </style>
+</head>
 ```
