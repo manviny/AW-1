@@ -96,7 +96,7 @@
 
 #### 6. Código para hacer un enlace a otra página y que esta se abra en una nueva ventana.
 ```html
-<p>Texto de ejemplo <a href="http://blog.elinsti.com">Enlace a otra página</a></p>
+<a href="http://blog.elinsti.com" target="_blank">Enlace de ejemplo</a>
 ```
 
 #### 7. ¿Qué son las pseudoclases? Pon ejemplos.
