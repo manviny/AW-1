@@ -19,7 +19,7 @@
 
 #### 2. Explica las 3 formas de usar CSS en HTML.
 
->**CSS externo**: En la cabecera de HTML, el bloque head. Así, los navegadores sabrán que deben aplicar los estilos del archivo (ejemplo.css) al documento HTML actual.
+>**CSS externo**: En la cabecera de HTML, el bloque **head**. Así, los navegadores sabrán que deben aplicar los estilos del archivo (ejemplo.css) al documento HTML actual.
 ```html
 <link rel="stylesheet" type="text/css" href="ejemplo.css" />
 ```
@@ -36,7 +36,7 @@
     </style>
 </head>
 ```
->**CSS embebido**: Consiste en añadirlo directamente en las propias etiquetas, a través del atributo style.
+>**CSS embebido**: Consiste en añadirlo directamente en las propias etiquetas, a través del atributo **style**.
 ```html
 <p>¡Hola <span style="color:#FF0000">Esto es el ejemplo</span>!</p>
 ```
@@ -61,19 +61,31 @@
 ```
 
 #### 4. Como se puede incluir javascript en HTML.
-La primera forma es añadiendo Java Script directamente a un documento HTML, se puede hacer utilizando la etqueta **script**, se puedfe agregar entre las etiquetas **head** o **body**. De normal se recomienda entre **head** para que este separado del contenido del archivo HTML, pero colocarlo entre **body** puede ayudar a mejorar la velocidad de carga.
+>La primera forma es añadiendo Java Script directamente a un documento HTML, se puede hacer utilizando la etqueta **script**, se puedfe agregar entre las etiquetas **head** o **body**. De normal se recomienda entre **head** para que este separado del contenido del archivo HTML, pero colocarlo entre **body** puede ayudar a mejorar la velocidad de carga.
 ```html
 <!DOCTYPE  html>
 <html>
 	<head>
 		<title>Título de la página</title>
 	
-			<script>JavaScript suele ir aquí</script>
+			<script>JAVASCRIPT SUELE IR AQUI</script>
 	
 	</head>
 	<body>
-		<script>JavaScript tambien puede ir aquí</script>
+		<script>JAVASCRIPT TAMBIEN PUEDE IR AQUI</script>
 	
+	</body>
+</html>
+```
+>También se puede agregar el código JavaScript a un archivo separado, a veces insertarlo de forma directa no es la mejor opción porque algunos scripts deben utilizarse en varias páginas, por eso es mejor mantener el codigo en archivos separados.
+```html
+<!DOCTYPE  html>
+<html>
+	<head>
+		<title>Título de la página</title>
+	</head>
+	<body>
+		<script src="ejemploJS.js"></script>
 	</body>
 </html>
 ```
