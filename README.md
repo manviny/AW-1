@@ -67,10 +67,13 @@ La primera forma es añadiendo Java Script directamente a un documento HTML, se 
 <html>
 	<head>
 		<title>Título de la página</title>
+	
 			<script>JavaScript suele ir aquí</script>
+	
 	</head>
 	<body>
 		<script>JavaScript tambien puede ir aquí</script>
+	
 	</body>
 </html>
 ```
