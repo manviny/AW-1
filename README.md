@@ -59,3 +59,17 @@
 	</body>
 </html>
 ```
+
+#### 4. Como se puede incluir javascript en HTML.
+La primera forma es añadiendo Java Script directamente a un documento HTML, se puede hacer utilizando la etqueta **script**, se puedfe agregar entre las etiquetas **head** o **body**. De normal se recomienda entre **head** para que este separado del contenido del archivo HTML, pero colocarlo entre **body** puede ayudar a mejorar la velocidad de carga.
+```html
+<!DOCTYPE  html>
+<html>
+	<head>
+		<title>Título de la página</title>
+		<script>JAVASCRIPT IS USUALLY PLACED HERE</script>
+	</head>
+	<body>
+	</body>
+</html>
+```
