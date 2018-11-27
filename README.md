@@ -1,6 +1,6 @@
 # AW
 ## Actividades HTML y CSS
-#### Estructura mínima de una web.
+#### 1. Estructura mínima de una web.
 ```html
 <!DOCTYPE  html>
 <html>
