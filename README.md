@@ -89,3 +89,7 @@
 	</body>
 </html>
 ```
+
+#### 5. ¿Que diferencia hay entre una clase y una ID?
+>Los **id** están pensados para que el elemento que se selecciona sea único.
+>Las **clases** están pensadas para poder definir el mosmo estilo a varios elementos de la página.
