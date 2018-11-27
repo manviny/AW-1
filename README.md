@@ -42,3 +42,20 @@
 ```
 
 #### 3. Crea una lista sin ordenar con 5 ingredientes de una receta de cocina.
+```html
+<!DOCTYPE  html>
+<html>
+	<head>
+		<title>Título de la página</title>
+	</head>
+	<body>
+		<ul>
+			<li>Arina</li>
+			<li>Azucar</li>
+			<li>Huevo</li>
+			<li>Cacao</li>
+			<li>Leche</li>
+		</ul>
+	</body>
+</html>
+```
