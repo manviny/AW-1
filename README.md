@@ -1,6 +1,6 @@
 # AW
 ## Actividades HTML y CSS
-#### 1. Estructura mínima de una web.
+### 1. Estructura mínima de una web.
 ```html
 <!DOCTYPE  html>
 <html>
@@ -17,7 +17,7 @@
 
 >**body**: Este elemento alberga el contenido de su página Web, es decir, aquello que queremos que aparezca en el área de navegación del navegador.
 
-#### 2. Explica las 3 formas de usar CSS en HTML.
+### 2. Explica las 3 formas de usar CSS en HTML.
 
 **CSS externo**: En la cabecera de HTML, el bloque **head**. Así, los navegadores sabrán que deben aplicar los estilos del archivo (ejemplo.css) al documento HTML actual.
 ```html
@@ -41,7 +41,7 @@
 <p>¡Hola <span style="color:#FF0000">Esto es el ejemplo</span>!</p>
 ```
 
-#### 3. Crea una lista sin ordenar con 5 ingredientes de una receta de cocina.
+### 3. Crea una lista sin ordenar con 5 ingredientes de una receta de cocina.
 ```html
 <!DOCTYPE  html>
 <html>
@@ -60,7 +60,7 @@
 </html>
 ```
 
-#### 4. Como se puede incluir javascript en HTML.
+### 4. Como se puede incluir javascript en HTML.
 La primera forma es añadiendo Java Script directamente a un documento HTML, se puede hacer utilizando la etqueta **script**, se puedfe agregar entre las etiquetas **head** o **body**. De normal se recomienda entre **head** para que este separado del contenido del archivo HTML, pero colocarlo entre **body** puede ayudar a mejorar la velocidad de carga.
 ```html
 <!DOCTYPE  html>
@@ -90,15 +90,15 @@ También se puede agregar el código JavaScript a un archivo separado, a veces i
 </html>
 ```
 
-#### 5. ¿Que diferencia hay entre una clase y una ID?
+### 5. ¿Que diferencia hay entre una clase y una ID?
 Los **id** están pensados para que el elemento que se selecciona sea único. Las **clases** están pensadas para poder definir el mosmo estilo a varios elementos de la página.
 
-#### 6. Código para hacer un enlace a otra página y que esta se abra en una nueva ventana.
+### 6. Código para hacer un enlace a otra página y que esta se abra en una nueva ventana.
 ```html
 <a href="http://blog.elinsti.com" target="_blank">Enlace de ejemplo</a>
 ```
 
-#### 7. ¿Qué son las pseudoclases? Pon ejemplos.
+### 7. ¿Qué son las pseudoclases? Pon ejemplos.
 Las pseudoclases son unas palabras clave que se añaden a los selectores y especifican un estado especial del elemento seleccionado. Por elempo, **:hover** que permite saber si el ratón está encima de un elemento o no, cambiendo el estilo del elemento especificado or el selector.
 ```html
 div:hover {
