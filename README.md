@@ -119,5 +119,17 @@ El modelo de las cajas es la base del diseño Web, cada elemento se representa c
 Los selectores CSS son patrones que se utilizan para seleccionar los elementos que se quieren aplicar un estilo.
 Ejemplos:
 ```html
-    	div > p Selecciona todos los elementos <p> donde el padre sea un elemento <div>
+div > p --> Selecciona todos los elementos <p> donde el padre sea un elemento <div>.
+```
+```html
+h1, p --> Aplica estilo a todos los elementos <h1> y a todos los elementos <p>.
+```
+```html
+a[target=_blank] --> Selecciona todos los elementos <a> con target = "_ blank".
+```
+```html
+a:link --> Selecciona y pon un estiloa los enlaces no visitados.
+```
+```html
+a:visited --> Seleccione y pon un estilo a los enlaces visitados.
 ```
