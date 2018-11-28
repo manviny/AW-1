@@ -91,8 +91,7 @@ También se puede agregar el código JavaScript a un archivo separado, a veces i
 ```
 
 #### 5. ¿Que diferencia hay entre una clase y una ID?
->Los **id** están pensados para que el elemento que se selecciona sea único.
->Las **clases** están pensadas para poder definir el mosmo estilo a varios elementos de la página.
+Los **id** están pensados para que el elemento que se selecciona sea único. Las **clases** están pensadas para poder definir el mosmo estilo a varios elementos de la página.
 
 #### 6. Código para hacer un enlace a otra página y que esta se abra en una nueva ventana.
 ```html
