@@ -99,9 +99,14 @@ Los **id** están pensados para que el elemento que se selecciona sea único. La
 ```
 
 ### 7. ¿Qué son las pseudoclases? Pon ejemplos.
-Las pseudoclases son unas palabras clave que se añaden a los selectores y especifican un estado especial del elemento seleccionado. Por elempo, **:hover** que permite saber si el ratón está encima de un elemento o no, cambiendo el estilo del elemento especificado or el selector.
+Las pseudoclases son unas palabras clave que se añaden a los selectores y especifican un estado especial del elemento seleccionado. Ejemplos, **:hover** que permite saber si el ratón está encima de un elemento o no, cambiendo el estilo del elemento especificado por el selector. **:visited** historial de navegación, **:checked** estado de su contenido en algunos elementos de formulario, **:link** representa un elemento que aun no se ha vistado,.etc.
 ```html
 div:hover {
   background-color: red;
 }
 ```
+### 8. Explica el modelo de caja de CSS (margin, border y padding).
+El modelo de las cajas es la base del diseño Web, cada elemento se representa como una caja rectangular con el contenido, margin, padding y border contruidos uno sobre otro como capas.
+>**Padding**: Hace referencia al margen interior de la caja CSS, entre el limte exterior de la caja del contenido y el limite interior del border.
+>**Border**: Entre el limite exterior del padding y el limite interior del margin. Por defecto tiene un tamaño 0, pero podemos cambiar su grosor, color y estilo.
+>**Margin**: Es lo que envuelve la caja CSS y sostiene las otras cajas de diseño. Su comportamiento es parecido al del padding.
