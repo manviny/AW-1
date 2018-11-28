@@ -107,8 +107,8 @@ div:hover {
 ```
 ### 8. Explica el modelo de caja de CSS (margin, border y padding).
 El modelo de las cajas es la base del diseño Web, cada elemento se representa como una caja rectangular con el contenido, margin, padding y border contruidos uno sobre otro como capas.
->**Padding**: Hace referencia al margen interior de la caja CSS, entre el limte exterior de la caja del contenido y el limite interior del border.
+-**Padding**: Hace referencia al margen interior de la caja CSS, entre el limte exterior de la caja del contenido y el limite interior del border.
 
->**Border**: Entre el limite exterior del padding y el limite interior del margin. Por defecto tiene un tamaño 0, pero podemos cambiar su grosor, color y estilo.
+-**Border**: Entre el limite exterior del padding y el limite interior del margin. Por defecto tiene un tamaño 0, pero podemos cambiar su grosor, color y estilo.
 
->**Margin**: Es lo que envuelve la caja CSS y sostiene las otras cajas de diseño. Su comportamiento es parecido al del padding.
+-**Margin**: Es lo que envuelve la caja CSS y sostiene las otras cajas de diseño. Su comportamiento es parecido al del padding.
