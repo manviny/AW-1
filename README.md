@@ -118,4 +118,6 @@ El modelo de las cajas es la base del diseño Web, cada elemento se representa c
 ### 9. Explica que son los selectores de CSS y pon ejemplos.
 Los selectores CSS son patrones que se utilizan para seleccionar los elementos que se quieren aplicar un estilo.
 Ejemplos:
+```html
     	div > p Selecciona todos los elementos <p> donde el padre sea un elemento <div>
+```
