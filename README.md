@@ -136,20 +136,20 @@ a:visited --> Seleccione y pon un estilo a los enlaces visitados.
 
 ### 10. Di a quien afectan.
 ```html
-p a { color: red; } --> Aplica estilo a cada elemento <a> que esté dentro de los elementos <p>.
+p a { color: red; } --> Poner en rojo los enlaces <a> que esté dentro de los elementos <p>.
 ```
 ```html
-p > a { color: red; } -->  Aplica estilo a cada elemento <a> donde el padre sea un elemento <p>.
+p > a { color: red; } -->  Poner en rojo los enlaces <a> donde el padre sea un elemento <p>.
 ```
 ```html
-h1 + h2 { color: red } --> Aplica estilo a cada elemento <h2> que se esté inmediatamente después del elemnto <h1>.
+h1 + h2 { color: red } --> Poner en rojo cada elemento <h2> que se esté inmediatamente después del elemnto <h1>.
 ```
 ```html
-a[class] { color: blue; } --> 
+a[class] { color: blue; } --> Poner en azul a todos los enlaces <a> con el atrubuto class.
 ```
 ```html
-a[class="externo"] { color: blue; } --> 
+a[class="externo"] { color: blue; } --> Poner en azul todos los enlaces <a> con el atrubuto class con el valor "externo".
 ```
 ```html
-a[href="http://www.ejemplo.com"] { color: blue; } --> 
+a[href="http://www.ejemplo.com"] { color: blue; } --> Poner en azul todos los enlazes <a> que vayan a la direccion "http://www.ejemplo.com".
 ```
