@@ -133,3 +133,23 @@ a:link --> Selecciona y pon un estiloa los enlaces no visitados.
 ```html
 a:visited --> Seleccione y pon un estilo a los enlaces visitados.
 ```
+
+### 10. Di a quien afectan.
+```html
+p a { color: red; } --> 
+```
+```html
+p > a { color: red; } --> 
+```
+```html
+h1 + h2 { color: red } --> 
+```
+```html
+a[class] { color: blue; } --> 
+```
+```html
+a[class="externo"] { color: blue; } --> 
+```
+```html
+a[href="http://www.ejemplo.com"] { color: blue; } --> 
+```
