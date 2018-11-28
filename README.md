@@ -136,13 +136,13 @@ a:visited --> Seleccione y pon un estilo a los enlaces visitados.
 
 ### 10. Di a quien afectan.
 ```html
-p a { color: red; } --> 
+p a { color: red; } --> Aplica estilo a cada elemento <a> que esté dentro de los elementos <p>.
 ```
 ```html
-p > a { color: red; } --> 
+p > a { color: red; } -->  Aplica estilo a cada elemento <a> donde el padre sea un elemento <p>.
 ```
 ```html
-h1 + h2 { color: red } --> 
+h1 + h2 { color: red } --> Aplica estilo a cada elemento <h2> que se esté inmediatamente después del elemnto <h1>.
 ```
 ```html
 a[class] { color: blue; } --> 
