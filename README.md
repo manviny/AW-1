@@ -105,6 +105,7 @@ div:hover {
   background-color: red;
 }
 ```
+
 ### 8. Explica el modelo de caja de CSS (margin, border y padding).
 El modelo de las cajas es la base del diseño Web, cada elemento se representa como una caja rectangular con el contenido, margin, padding y border contruidos uno sobre otro como capas.
 
@@ -113,3 +114,13 @@ El modelo de las cajas es la base del diseño Web, cada elemento se representa c
 >**Border**: Entre el limite exterior del padding y el limite interior del margin. Por defecto tiene un tamaño 0, pero podemos cambiar su grosor, color y estilo.
 
 >**Margin**: Es lo que envuelve la caja CSS y sostiene las otras cajas de diseño. Su comportamiento es parecido al del padding.
+
+### 9. Explica que son los selectores de CSS y pon ejemplos.
+Los selectores CSS son patrones que se utilizan para seleccionar los elementos que se quieren aplicar un estilo.
+Ejemplos:
+```html
+div > p { 
+    background-color: red;
+}
+```
+Selecciona todos los elementos <p> donde el padre sea un elemento <div>
