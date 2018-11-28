@@ -100,3 +100,9 @@
 ```
 
 #### 7. ¿Qué son las pseudoclases? Pon ejemplos.
+Las pseudoclases son unas palabras clave que se añaden a los selectores y especifican un estado especial del elemento seleccionado. Por elempo, **:hover** que permite saber si el ratón está encima de un elemento o no, cambiendo el estilo del elemento especificado or el selector.
+```html
+div:hover {
+  background-color: red;
+}
+```
